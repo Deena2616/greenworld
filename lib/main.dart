@@ -494,7 +494,7 @@ class HUDOverlay extends StatelessWidget {
                 const SizedBox(height: 4),
                 Text(
                   'Coins: ${gameRef.coins}',
-                  style: GoogleFonts.signika(color: Colors.green),
+                  style: GoogleFonts.signika(color: Colors.black),
                 ),
               ],
             ),
