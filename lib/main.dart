@@ -509,7 +509,7 @@ class HUDOverlay extends StatelessWidget {
                 const SizedBox(height: 4),
                 Text(
                   'High: ${gameRef.highScore}',
-                  style: GoogleFonts.signika(color: Colors.white70),
+                  style: GoogleFonts.signika(color: Colors.red),
                 ),
               ],
             ),
