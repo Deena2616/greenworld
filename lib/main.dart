@@ -523,7 +523,7 @@ class HUDOverlay extends StatelessWidget {
                 gameRef.pauseEngine();
                 gameRef.overlays.add('PauseMenu');
               },
-              child: const Icon(Icons.pause, color: Colors.green),
+              child: const Icon(Icons.pause, color: Colors.black),
             ),
           ],
         ),
